@@ -12,7 +12,8 @@ body{
    
 }
 .header div{
-   
+   width: auto;
+   height: auto;
      margin-right: 50px;
 }
 .header .img1{
