@@ -1,0 +1,125 @@
+
+body{
+    
+}
+.header{
+    display: flex;
+    width: auto;
+    
+    justify-content: flex-end;
+    gap:4em;
+    
+   
+}
+.header div{
+   
+     margin-right: 50px;
+}
+.header .img1{
+   display:grid;
+   align-self:start;
+   
+}
+.header .img2{
+    display: flex;
+    position: relative;   
+     border: 2px solid rgb(31, 13, 201);
+    border-radius: 50%;
+}
+.banner h1,p{ 
+   
+  display: flex;
+  justify-content: center;
+      
+}
+.banner{
+     background-image: linear-gradient(blue,skyblue),url(fonts/Vector\ \(1\).png);
+}
+.input{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cuerpo{
+    display: flex;
+
+}
+.cuerpo div{
+    border:3px solid blue;
+    width:100%;
+    height:100%;
+    background: skyblue;
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    grid-template-rows: minmax(100px,auto);
+    gap: 1em;
+}
+.grid{
+    display:grid;
+    width: auto;
+    height:auto;
+    
+    grid-template-columns:repeat(2,auto);
+    grid-template-rows: minmax(100px,auto);
+    column-gap:5em;
+    
+}
+.grid div{
+    padding: 5px;
+    
+}
+.footer div{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.grid{
+    border-bottom: 5px solid;
+}
+
+section article{
+    display: flex;
+    padding: 10px;
+    margin-right: -10px;
+   
+}
+article p{
+    margin-left:20px;
+
+}
+.fondo {
+    display: flex;
+    width: auto;
+    height: 200px;
+    background: steelblue;
+    border-top:2px solid;
+    border-top-right-radius:  50px ;
+position: relative;    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:50px;
+    align-self: start;
+} 
+.fondo2{
+    width: auto;
+    height: 350px;
+    background: steelblue;
+    border-top:2px solid;
+   
+    
+}
+.fondo button{
+   position: absolute;
+   right: 50px;
+   bottom: 80px;
+}
+.fondo h3{
+    text-align: center;
+}
+.ultimo div{
+   
+    text-align: center;
+    
+    
+}
